@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="list-view">
+        <h3>List of Breeds</h3>
+        <ul>
+            <li *ngFor="let breed of breedsList; let i = index;" [ngClass]="{'active': activeIndex === i}"
+                (click)="getImages(breed, i)">{{breed}}</li>
+        </ul>
+    </div>
+    <div class="image-view">
+        <h3>Image</h3>
+        <img *ngIf="imageUrl" src="{{imageUrl}}" />
+    </div>
+</div>
