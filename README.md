@@ -7,7 +7,7 @@ How to Run Project:
 	npm install.
 4. Execute the below command to run the project
 	ng serve
-5. Whn you see a message "Compiled successfully". Open the application in browser with the below link.
+5. When you see a message "Compiled successfully", Open the application in browser with the below link.
 	"http://localhost:4200/"
 
 	
